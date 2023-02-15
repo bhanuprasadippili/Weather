@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Media/pexels-tahir-shaw-186980.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    border: 2px solid gray;
+    padding: 2rem;
+    background-color: blanchedalmond;
+    border-radius: 1rem;
+}
+
+h1 {
+    color: red;
+    text-decoration: underline blue dashed;
+}
+
+button {
+    font-size: 1rem;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+}
+
+button:hover {
+    color: white;
+    background-color: purple;
+    border: 2px solid orange;
+}
+
+input {
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    padding: .5rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
